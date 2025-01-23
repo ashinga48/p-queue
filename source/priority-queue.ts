@@ -57,4 +57,8 @@ export default class PriorityQueue implements Queue<RunFunction, PriorityQueueOp
 	get size(): number {
 		return this.#queue.length;
 	}
+
+	get getAll(): any[] {
+		return this.#queue;
+	}
 }
