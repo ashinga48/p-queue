@@ -374,6 +374,10 @@ export default class PQueue<QueueType extends Queue<RunFunction, EnqueueOptionsT
 		this.#queue = new this.#queueClass();
 	}
 
+	getAllIds() {
+		return this.#queue.getAllIds
+	}
+
 	/**
 	Can be called multiple times. Useful if you for example add additional items at a later time.
 

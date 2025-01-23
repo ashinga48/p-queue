@@ -58,7 +58,7 @@ export default class PriorityQueue implements Queue<RunFunction, PriorityQueueOp
 		return this.#queue.length;
 	}
 
-	get getAll(): any[] {
-		return this.#queue;
+	get getAllIds(): string[] {
+		return (this.#queue || [])?.map(each => `${each?.id}`);
 	}
 }

@@ -1,6 +1,7 @@
 {
-	"name": "p-queue",
-	"version": "8.1.0",
+	"name": "@rata2020/p-queue",
+	"private": false,
+	"version": "8.1.3",
 	"description": "Promise queue with concurrency control",
 	"license": "MIT",
 	"repository": "sindresorhus/p-queue",

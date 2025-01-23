@@ -184,7 +184,7 @@ try {
 
 Same as `.add()`, but accepts an array of sync or async functions and returns a promise that resolves when all functions are resolved.
 
-#### .getAll()
+#### .getAllIds()
 
 returns array of queue to read id and priority values
 

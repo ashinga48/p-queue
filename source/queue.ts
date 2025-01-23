@@ -2,7 +2,7 @@ export type RunFunction = () => Promise<unknown>;
 
 export type Queue<Element, Options> = {
 	size: number;
-	getAll: any[];
+	getAllIds: string[];
 	filter: (options: Readonly<Partial<Options>>) => Element[];
 	dequeue: () => Element | undefined;
 	enqueue: (run: Element, options?: Partial<Options>) => void;
